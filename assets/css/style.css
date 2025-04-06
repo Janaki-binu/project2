@@ -210,6 +210,15 @@ section.about-section {
   color: var(--dark-primary);
 }
 
+section.skills-section {
+  background-color: #22282f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
 /* Projects Section */
 section.projects-section {
   background-color: var(--dark-primary);
