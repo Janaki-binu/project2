@@ -211,7 +211,7 @@ section.about-section {
 }
 
 section.skills-section {
-  background-color: #22282f;
+   background-color: var(--dark-primary);
   color: #fff;
   display: flex;
   align-items: center;
