@@ -1,0 +1,49 @@
+.skills-section {
+  background: #140022; /* Dark purple background like yours */
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  font-family: 'Pacifico', cursive; /* Optional - similar to your "Skills" font */
+  margin-bottom: 10px;
+}
+
+.skills-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 20px;
+  transition: transform 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.skill-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  font-size: 1rem;
+  font-weight: bold;
+}
