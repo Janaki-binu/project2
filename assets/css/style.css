@@ -296,7 +296,7 @@ section.projects-section {
   width: 33.33%;
   margin: 35px 10px;
   padding: 33px;
-  background-color: #22282f;
+  background-color: var(--dark-primary);
   border-radius: 5px;
   transition: all 0.5s ease 0s;
 }
