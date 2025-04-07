@@ -215,6 +215,60 @@ section.about-section {
   text-decoration: none;
   color: var(--dark-primary);
 }
+section.skills-section {
+  background-color: var(--dark-primary);
+  color: #fff;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 33px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.skills-subtitle {
+  font-size: 15px;
+  color: var(--text-color);
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.skill-card {
+  background-color: var(--dark-secondary);
+  padding: 20px;
+  border-radius: 10px;
+  width: 120px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
 
 /* Projects Section */
 section.projects-section {
