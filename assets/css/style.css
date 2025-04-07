@@ -211,7 +211,8 @@ section.about-section {
 }
 
 section.skills-section {
-  background-color: #22282f;
+  background-color: var(--dark-primary);
+  
   color: #fff;
   padding: 60px;
   display: flex;
@@ -272,7 +273,8 @@ section.skills-section {
 
 /* Projects Section */
 section.projects-section {
-  background-color: var(--dark-primary);
+  background-color: #22282f;
+  
   color: #fff;
   padding: 50px 120px;
 }
@@ -347,7 +349,8 @@ section.projects-section {
 
 /* Contact Section */
 section.contact-section {
-  background-color: #22282f;
+  background-color: var(--dark-primary);
+  
   color: #fff;
   text-align: center;
   padding: 30px;
@@ -409,7 +412,8 @@ textarea:focus {
 
 /* Footer */
 footer {
-  background-color: var(--dark-primary);
+  background-color: #22282f;
+  
   color: gray;
   text-align: center;
   padding: 15px 0;
