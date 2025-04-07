@@ -6,7 +6,7 @@ Simple webpage crafted using pure HTML and CSS. A minimalistic showcase of struc
 
 ##### Connect with me on:
 
-- [Linked-in](https://www.linkedin.com/in/sudharsan-a-b40506290/)
-- [Instagram](https://instagram.com/sudharsan_daniel)
-- [Facebook](https"//https://www.facebook.com/sudharsandaniel.sudharsandaniel)
-- [Github](https://github.com/danielace1)
+- [Linked-in]()
+- [Instagram]()
+- [Facebook]()
+- [Github](https://github.com/Janaki-binu)
