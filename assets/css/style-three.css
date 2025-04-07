@@ -348,6 +348,7 @@ section.projects-section {
 
 /* Contact Section */
 section.contact-section {
+  
   background-color: var(--dark-primary);
   color: #fff;
   text-align: center;
