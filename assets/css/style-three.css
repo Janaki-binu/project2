@@ -215,10 +215,65 @@ section.about-section {
   text-decoration: none;
   color: var(--dark-primary);
 }
+section.skills-section {
+  background-color: var(--dark-primary);
+  color: #fff;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 33px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.skills-subtitle {
+  font-size: 15px;
+  color: var(--text-color);
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.skill-card {
+  background-color: var(--dark-secondary);
+  padding: 20px;
+  border-radius: 10px;
+  width: 120px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
 
 /* Projects Section */
 section.projects-section {
-  background-color: var(--dark-primary);
+  background-color: var(--dark-secondary);
+  
   color: #fff;
   padding: 50px 120px;
 }
@@ -240,7 +295,7 @@ section.projects-section {
   width: 33.33%;
   margin: 35px 10px;
   padding: 33px;
-  background-color: var(--dark-secondary);
+  ackground-color: var(--dark-primary);
   border-radius: 5px;
   transition: all 0.5s ease 0s;
 }
@@ -282,7 +337,7 @@ section.projects-section {
 }
 
 .projects-card-box__buttons button {
-  background-color: var(--dark-secondary);
+  ackground-color: var(--dark-primary);
 }
 
 .projects-card-box__buttons button > a {
@@ -293,7 +348,7 @@ section.projects-section {
 
 /* Contact Section */
 section.contact-section {
-  background-color: var(--dark-secondary);
+  ackground-color: var(--dark-primary);
   color: #fff;
   text-align: center;
   padding: 30px;
