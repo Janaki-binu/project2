@@ -338,7 +338,7 @@ section.projects-section {
 }
 
 .projects-card-box__buttons button {
-  background-color: #22282f;
+   background-color: var(--dark-primary);
 }
 
 .projects-card-box__buttons button > a {
