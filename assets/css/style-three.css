@@ -246,7 +246,7 @@ section.skills-section {
 }
 
 .skill-card {
-  background-color: var(--dark-secondary);
+  background-color: var(--dark-primary);
   padding: 20px;
   border-radius: 10px;
   width: 120px;
